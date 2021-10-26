@@ -157,3 +157,15 @@ def letter_9() :
 
 def letter_0() :
      message.append("0")
+
+def letter_0() :
+     message.append("0")
+
+def unsafe_driver() :
+    message.append("Unsafe Driver")
+
+def wrongway_driver() :
+    message.append("Wrong-way Driver")
+
+def unsafe_person() :
+    message.append("Unsafe Person")
