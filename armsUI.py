@@ -170,3 +170,30 @@ def wrongway_driver() :
 
 def unsafe_person() :
     message.append("Unsafe Person")
+
+def obstacle() :
+     message.append("Obstacle")
+
+def spill() :
+     message.append("Spill")
+
+def loose_gravel() :
+     message.append("Loose Gravel")
+
+def closure() :
+     message.append("Closure")
+
+def ahead() :
+     message.append("Ahead")
+
+def prepo_in():
+     message.append("In")
+
+def prepo_at() :
+     message.append("At")
+
+def near() :
+     message.append("Near")
+
+def prepo_on() :
+     message.append("On")
