@@ -230,3 +230,6 @@ def right_lane() :
 
 def center_lane() :
      message.append("Center Lane(s)")
+
+def plate_ending() :
+     message.append("Plate ending in")

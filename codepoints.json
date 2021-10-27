@@ -858,5 +858,10 @@
       "Code": 171,
       "Meaning": "On fire/burning",
       "Type": "Adjectives"
+    },
+    {
+      "Code": 172,
+      "Meaning": "Plate ending in",
+      "Type": "Quick Phrases"
     }
   ]
