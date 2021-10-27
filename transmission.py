@@ -5,8 +5,6 @@ print(os.listdir())
 specification = open('codepoints.json', 'r')
 specs = json.load(specification)
 
-print ("yeat")
-
 spec_version = "1.0";
 
 def transmit(words):
