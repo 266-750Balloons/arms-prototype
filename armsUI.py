@@ -12,7 +12,13 @@ message = []
 #Function to send message. Shows error to user if something goes wrong
 def send() :
      status = radioSend.transmit(message)
-     message = []
+     #If nothing happens, clear the message. If there is an error, the user is given the opportunity to fix it.
+     if status == 0:
+          message = []
+
+def renderInBox() :
+     #renders contents of message in the message box.
+     print("placeholder")
 
 #A whole bunch of functiosn to add chunks to the message
 def white() :

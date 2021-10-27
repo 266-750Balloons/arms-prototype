@@ -59,6 +59,7 @@ def internalTransmit(words):
                 iteration += 1
             for i in message:
                 os.system('echo "1:'+i+'"| sudo pocsag -f 434000000 -t 2 -r 2400')
+            return 0
         else:
             print("Error. Too many characters of type letter.")
             return 1
