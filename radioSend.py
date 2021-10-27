@@ -21,11 +21,11 @@ def transmit(words):
                 typeCheck2 = False
             iteration += 1    
     if typeCheck2 == True & typeCheck1 == True:
-        internalTramsit(words)
+        internalTransmit(words)
     else:
         print("Format incorrect. Please input a list of strings.")
 
-def internalTramsit(words):
+def internalTransmit(words):
     #Counts the Amount of Letters in the message to make sure there is no more than 2
     #Checks if all the words inputted are valid.
     letterCount = 0
