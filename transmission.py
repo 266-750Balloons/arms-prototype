@@ -28,6 +28,11 @@ def internalTramsit(words):
     letterCount = 0
     wordsValid = True
     #Insert while loop that counts either until the end of words array or when letterCount gets to 2
+    iteration = 0
+    while letterCount < 2 or iteration < len(words) :
+        if getWordType(words[iteration]) == "Letters" :
+            letterCount += 1
+        iteration += 1
     #insert while loop that checks every word in the message to see if a a non-null value is outputted. If it is, wordsValid is set to false, ending the loop, and an error is returned.
     
     

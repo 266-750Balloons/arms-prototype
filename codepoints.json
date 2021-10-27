@@ -1,0 +1,862 @@
+[
+    {
+      "Code": 0,
+      "Meaning": "White",
+      "Type": "Color"
+    },
+    {
+      "Code": 1,
+      "Meaning": "Black",
+      "Type": "Color"
+    },
+    {
+      "Code": 2,
+      "Meaning": "Gray",
+      "Type": "Color"
+    },
+    {
+      "Code": 3,
+      "Meaning": "Silver",
+      "Type": "Color"
+    },
+    {
+      "Code": 4,
+      "Meaning": "Red",
+      "Type": "Color"
+    },
+    {
+      "Code": 5,
+      "Meaning": "Blue",
+      "Type": "Color"
+    },
+    {
+      "Code": 6,
+      "Meaning": "Brown",
+      "Type": "Color"
+    },
+    {
+      "Code": 7,
+      "Meaning": "Green",
+      "Type": "Color"
+    },
+    {
+      "Code": 8,
+      "Meaning": "Beige",
+      "Type": "Color"
+    },
+    {
+      "Code": 9,
+      "Meaning": "Orange",
+      "Type": "Color"
+    },
+    {
+      "Code": 10,
+      "Meaning": "Gold",
+      "Type": "Color"
+    },
+    {
+      "Code": 11,
+      "Meaning": "Yellow",
+      "Type": "Color"
+    },
+    {
+      "Code": 12,
+      "Meaning": "Purple",
+      "Type": "Color"
+    },
+    {
+      "Code": 13,
+      "Meaning": "Other",
+      "Type": "Color"
+    },
+    {
+      "Code": 14,
+      "Meaning": "Alabama",
+      "Type": "State"
+    },
+    {
+      "Code": 15,
+      "Meaning": "Alaska",
+      "Type": "State"
+    },
+    {
+      "Code": 16,
+      "Meaning": "Arizona",
+      "Type": "State"
+    },
+    {
+      "Code": 17,
+      "Meaning": "Arkansas",
+      "Type": "State"
+    },
+    {
+      "Code": 18,
+      "Meaning": "California",
+      "Type": "State"
+    },
+    {
+      "Code": 19,
+      "Meaning": "Canal Zone",
+      "Type": "State"
+    },
+    {
+      "Code": 20,
+      "Meaning": "Colorado",
+      "Type": "State"
+    },
+    {
+      "Code": 21,
+      "Meaning": "Connecticut",
+      "Type": "State"
+    },
+    {
+      "Code": 22,
+      "Meaning": "Delaware",
+      "Type": "State"
+    },
+    {
+      "Code": 23,
+      "Meaning": "District of Columbia",
+      "Type": "State"
+    },
+    {
+      "Code": 24,
+      "Meaning": "Florida",
+      "Type": "State"
+    },
+    {
+      "Code": 25,
+      "Meaning": "Georgia",
+      "Type": "State"
+    },
+    {
+      "Code": 26,
+      "Meaning": "Guam",
+      "Type": "State"
+    },
+    {
+      "Code": 27,
+      "Meaning": "Hawaii",
+      "Type": "State"
+    },
+    {
+      "Code": 28,
+      "Meaning": "Idaho",
+      "Type": "State"
+    },
+    {
+      "Code": 29,
+      "Meaning": "Illinois",
+      "Type": "State"
+    },
+    {
+      "Code": 30,
+      "Meaning": "Indiana",
+      "Type": "State"
+    },
+    {
+      "Code": 31,
+      "Meaning": "Iowa",
+      "Type": "State"
+    },
+    {
+      "Code": 32,
+      "Meaning": "Kansas",
+      "Type": "State"
+    },
+    {
+      "Code": 33,
+      "Meaning": "Kentucky",
+      "Type": "State"
+    },
+    {
+      "Code": 34,
+      "Meaning": "Louisiana",
+      "Type": "State"
+    },
+    {
+      "Code": 35,
+      "Meaning": "Maine",
+      "Type": "State"
+    },
+    {
+      "Code": 36,
+      "Meaning": "Maryland",
+      "Type": "State"
+    },
+    {
+      "Code": 37,
+      "Meaning": "Massachusetts",
+      "Type": "State"
+    },
+    {
+      "Code": 38,
+      "Meaning": "Michigan",
+      "Type": "State"
+    },
+    {
+      "Code": 39,
+      "Meaning": "Minnesota",
+      "Type": "State"
+    },
+    {
+      "Code": 40,
+      "Meaning": "Mississippi",
+      "Type": "State"
+    },
+    {
+      "Code": 41,
+      "Meaning": "Missouri",
+      "Type": "State"
+    },
+    {
+      "Code": 42,
+      "Meaning": "Montana",
+      "Type": "State"
+    },
+    {
+      "Code": 43,
+      "Meaning": "Nebraska",
+      "Type": "State"
+    },
+    {
+      "Code": 44,
+      "Meaning": "Nevada",
+      "Type": "State"
+    },
+    {
+      "Code": 45,
+      "Meaning": "New Hampshire",
+      "Type": "State"
+    },
+    {
+      "Code": 46,
+      "Meaning": "New Jersey",
+      "Type": "State"
+    },
+    {
+      "Code": 47,
+      "Meaning": "New Mexico",
+      "Type": "State"
+    },
+    {
+      "Code": 48,
+      "Meaning": "New York",
+      "Type": "State"
+    },
+    {
+      "Code": 49,
+      "Meaning": "North Carolina",
+      "Type": "State"
+    },
+    {
+      "Code": 50,
+      "Meaning": "North Dakota",
+      "Type": "State"
+    },
+    {
+      "Code": 51,
+      "Meaning": "Ohio",
+      "Type": "State"
+    },
+    {
+      "Code": 52,
+      "Meaning": "Oklahoma",
+      "Type": "State"
+    },
+    {
+      "Code": 53,
+      "Meaning": "Oregon",
+      "Type": "State"
+    },
+    {
+      "Code": 54,
+      "Meaning": "Pennsylvania",
+      "Type": "State"
+    },
+    {
+      "Code": 55,
+      "Meaning": "Puerto Rico",
+      "Type": "State"
+    },
+    {
+      "Code": 56,
+      "Meaning": "Rhode Island",
+      "Type": "State"
+    },
+    {
+      "Code": 57,
+      "Meaning": "South Carolina",
+      "Type": "State"
+    },
+    {
+      "Code": 58,
+      "Meaning": "South Dakota",
+      "Type": "State"
+    },
+    {
+      "Code": 59,
+      "Meaning": "Tennessee",
+      "Type": "State"
+    },
+    {
+      "Code": 60,
+      "Meaning": "Texas",
+      "Type": "State"
+    },
+    {
+      "Code": 61,
+      "Meaning": "Utah",
+      "Type": "State"
+    },
+    {
+      "Code": 62,
+      "Meaning": "Vermont",
+      "Type": "State"
+    },
+    {
+      "Code": 63,
+      "Meaning": "Virgin Islands",
+      "Type": "State"
+    },
+    {
+      "Code": 64,
+      "Meaning": "Virginia",
+      "Type": "State"
+    },
+    {
+      "Code": 65,
+      "Meaning": "Washington",
+      "Type": "State"
+    },
+    {
+      "Code": 66,
+      "Meaning": "West Virginia",
+      "Type": "State"
+    },
+    {
+      "Code": 67,
+      "Meaning": "Wisconsin",
+      "Type": "State"
+    },
+    {
+      "Code": 68,
+      "Meaning": "Wyoming",
+      "Type": "State"
+    },
+    {
+      "Code": 69,
+      "Meaning": "Passenger Car",
+      "Type": "Vehicle"
+    },
+    {
+      "Code": 70,
+      "Meaning": "Pickup Truck",
+      "Type": "Vehicle"
+    },
+    {
+      "Code": 71,
+      "Meaning": "Large/Semi Truck",
+      "Type": "Vehicle"
+    },
+    {
+      "Code": 72,
+      "Meaning": "Bus",
+      "Type": "Vehicle"
+    },
+    {
+      "Code": 73,
+      "Meaning": "Van or RV",
+      "Type": "Vehicle"
+    },
+    {
+      "Code": 74,
+      "Meaning": "Recreational Vehicle",
+      "Type": "Vehicle"
+    },
+    {
+      "Code": 75,
+      "Meaning": "Other Vehcile",
+      "Type": "Vehicle"
+    },
+    {
+      "Code": 76,
+      "Meaning": "Road",
+      "Type": "Road Descriptors"
+    },
+    {
+      "Code": 77,
+      "Meaning": "Left Lane(s)",
+      "Type": "Road Descriptors"
+    },
+    {
+      "Code": 78,
+      "Meaning": "Right Lane(s)",
+      "Type": "Road Descriptors"
+    },
+    {
+      "Code": 79,
+      "Meaning": "Center Lane(s)",
+      "Type": "Road Descriptors"
+    },
+    {
+      "Code": 80,
+      "Meaning": "Interstate",
+      "Type": "Road Descriptors"
+    },
+    {
+      "Code": 81,
+      "Meaning": "US Highway",
+      "Type": "Road Descriptors"
+    },
+    {
+      "Code": 82,
+      "Meaning": "State Route",
+      "Type": "Road Descriptors"
+    },
+    {
+      "Code": 83,
+      "Meaning": "Street",
+      "Type": "Road Descriptors"
+    },
+    {
+      "Code": 84,
+      "Meaning": "Slow down",
+      "Type": "Quick Phrases"
+    },
+    {
+      "Code": 85,
+      "Meaning": "Speed Up",
+      "Type": "Quick Phrases"
+    },
+    {
+      "Code": 86,
+      "Meaning": "Pull over",
+      "Type": "Quick Phrases"
+    },
+    {
+      "Code": 87,
+      "Meaning": "Watch out",
+      "Type": "Quick Phrases"
+    },
+    {
+      "Code": 88,
+      "Meaning": "Danger",
+      "Type": "Quick Phrases"
+    },
+    {
+      "Code": 89,
+      "Meaning": "There is",
+      "Type": "Quick Phrases"
+    },
+    {
+      "Code": 90,
+      "Meaning": "Danger ahead",
+      "Type": "Quick Phrases"
+    },
+    {
+      "Code": 91,
+      "Meaning": "Unsafe Driver",
+      "Type": "Dangers"
+    },
+    {
+      "Code": 92,
+      "Meaning": "Wrong-way  Driver",
+      "Type": "Dangers"
+    },
+    {
+      "Code": 93,
+      "Meaning": "Unsafe person",
+      "Type": "Dangers"
+    },
+    {
+      "Code": 94,
+      "Meaning": "Obstacle",
+      "Type": "Dangers"
+    },
+    {
+      "Code": 95,
+      "Meaning": "Spill",
+      "Type": "Dangers"
+    },
+    {
+      "Code": 96,
+      "Meaning": "Loose Gravel",
+      "Type": "Dangers"
+    },
+    {
+      "Code": 97,
+      "Meaning": "Closure",
+      "Type": "Dangers"
+    },
+    {
+      "Code": 98,
+      "Meaning": "Fire Department",
+      "Type": "Authorities"
+    },
+    {
+      "Code": 99,
+      "Meaning": "Police",
+      "Type": "Authorities"
+    },
+    {
+      "Code": 100,
+      "Meaning": "Ambulance",
+      "Type": "Authorities"
+    },
+    {
+      "Code": 101,
+      "Meaning": "3 meters (5 feet)",
+      "Type": "Distances"
+    },
+    {
+      "Code": 102,
+      "Meaning": "6 meters (10 feet)",
+      "Type": "Distances"
+    },
+    {
+      "Code": 103,
+      "Meaning": "9 meters (15 feet)",
+      "Type": "Distances"
+    },
+    {
+      "Code": 104,
+      "Meaning": "12 meters (20 feet)",
+      "Type": "Distances"
+    },
+    {
+      "Code": 105,
+      "Meaning": "23 meters (75 feet)",
+      "Type": "Distances"
+    },
+    {
+      "Code": 106,
+      "Meaning": "30 meters (100 feet)",
+      "Type": "Distances"
+    },
+    {
+      "Code": 107,
+      "Meaning": "60 meters (200 feet)",
+      "Type": "Distances"
+    },
+    {
+      "Code": 108,
+      "Meaning": "90 meters (300 feet)",
+      "Type": "Distances"
+    },
+    {
+      "Code": 109,
+      "Meaning": "150 meters (500 feet)",
+      "Type": "Distances"
+    },
+    {
+      "Code": 110,
+      "Meaning": "1 kilometer (~half a mile)",
+      "Type": "Distances"
+    },
+    {
+      "Code": 111,
+      "Meaning": "1.6 kilometers (about a mile)",
+      "Type": "Distances"
+    },
+    {
+      "Code": 112,
+      "Meaning": "2 kilometers (about a mile and a quarter)",
+      "Type": "Distances"
+    },
+    {
+      "Code": 113,
+      "Meaning": "Kilometer (then use with numbers)",
+      "Type": "Distances"
+    },
+    {
+      "Code": 114,
+      "Meaning": "Mile marker (use with numbers)",
+      "Type": "Distances"
+    },
+    {
+      "Code": 115,
+      "Meaning": "A",
+      "Type": "Letters"
+    },
+    {
+      "Code": 116,
+      "Meaning": "B",
+      "Type": "Letters"
+    },
+    {
+      "Code": 117,
+      "Meaning": "C",
+      "Type": "Letters"
+    },
+    {
+      "Code": 118,
+      "Meaning": "D",
+      "Type": "Letters"
+    },
+    {
+      "Code": 119,
+      "Meaning": "E",
+      "Type": "Letters"
+    },
+    {
+      "Code": 120,
+      "Meaning": "F",
+      "Type": "Letters"
+    },
+    {
+      "Code": 121,
+      "Meaning": "G",
+      "Type": "Letters"
+    },
+    {
+      "Code": 122,
+      "Meaning": "H",
+      "Type": "Letters"
+    },
+    {
+      "Code": 123,
+      "Meaning": "I",
+      "Type": "Letters"
+    },
+    {
+      "Code": 124,
+      "Meaning": "J",
+      "Type": "Letters"
+    },
+    {
+      "Code": 125,
+      "Meaning": "K",
+      "Type": "Letters"
+    },
+    {
+      "Code": 126,
+      "Meaning": "L",
+      "Type": "Letters"
+    },
+    {
+      "Code": 127,
+      "Meaning": "M",
+      "Type": "Letters"
+    },
+    {
+      "Code": 128,
+      "Meaning": "N",
+      "Type": "Letters"
+    },
+    {
+      "Code": 129,
+      "Meaning": "O",
+      "Type": "Letters"
+    },
+    {
+      "Code": 130,
+      "Meaning": "P",
+      "Type": "Letters"
+    },
+    {
+      "Code": 131,
+      "Meaning": "Q",
+      "Type": "Letters"
+    },
+    {
+      "Code": 132,
+      "Meaning": "R",
+      "Type": "Letters"
+    },
+    {
+      "Code": 133,
+      "Meaning": "S",
+      "Type": "Letters"
+    },
+    {
+      "Code": 134,
+      "Meaning": "T",
+      "Type": "Letters"
+    },
+    {
+      "Code": 135,
+      "Meaning": "U",
+      "Type": "Letters"
+    },
+    {
+      "Code": 136,
+      "Meaning": "V",
+      "Type": "Letters"
+    },
+    {
+      "Code": 137,
+      "Meaning": "W",
+      "Type": "Letters"
+    },
+    {
+      "Code": 138,
+      "Meaning": "X",
+      "Type": "Letters"
+    },
+    {
+      "Code": 139,
+      "Meaning": "Y",
+      "Type": "Letters"
+    },
+    {
+      "Code": 140,
+      "Meaning": "Z",
+      "Type": "Letters"
+    },
+    {
+      "Code": 141,
+      "Meaning": 0,
+      "Type": "Numbers"
+    },
+    {
+      "Code": 142,
+      "Meaning": 1,
+      "Type": "Numbers"
+    },
+    {
+      "Code": 143,
+      "Meaning": 2,
+      "Type": "Numbers"
+    },
+    {
+      "Code": 144,
+      "Meaning": 3,
+      "Type": "Numbers"
+    },
+    {
+      "Code": 145,
+      "Meaning": 4,
+      "Type": "Numbers"
+    },
+    {
+      "Code": 146,
+      "Meaning": 5,
+      "Type": "Numbers"
+    },
+    {
+      "Code": 147,
+      "Meaning": 6,
+      "Type": "Numbers"
+    },
+    {
+      "Code": 148,
+      "Meaning": 7,
+      "Type": "Numbers"
+    },
+    {
+      "Code": 149,
+      "Meaning": 8,
+      "Type": "Numbers"
+    },
+    {
+      "Code": 150,
+      "Meaning": 9,
+      "Type": "Numbers"
+    },
+    {
+      "Code": 151,
+      "Meaning": "In",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 152,
+      "Meaning": "On",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 153,
+      "Meaning": "At",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 154,
+      "Meaning": "into",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 155,
+      "Meaning": "About",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 156,
+      "Meaning": "Off",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 157,
+      "Meaning": "ABove",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 158,
+      "Meaning": "Below",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 159,
+      "Meaning": "Near",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 160,
+      "Meaning": "Between",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 161,
+      "Meaning": "Before",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 162,
+      "Meaning": "After",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 163,
+      "Meaning": "Around",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 164,
+      "Meaning": "Except",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 165,
+      "Meaning": "Through",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 166,
+      "Meaning": "ahead",
+      "Type": "Prepositions"
+    },
+    {
+      "Code": 167,
+      "Meaning": "Crashed",
+      "Type": "Adjectives"
+    },
+    {
+      "Code": 168,
+      "Meaning": "Stalled/stopped",
+      "Type": "Adjectives"
+    },
+    {
+      "Code": 169,
+      "Meaning": "Disabled",
+      "Type": "Adjectives"
+    },
+    {
+      "Code": 170,
+      "Meaning": "Vandalized",
+      "Type": "Adjectives"
+    },
+    {
+      "Code": 171,
+      "Meaning": "On fire/burning",
+      "Type": "Adjectives"
+    }
+  ]
