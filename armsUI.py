@@ -19,6 +19,7 @@ def send() :
 def renderInBox() :
      #renders contents of message in the message box.
      print("placeholder")
+     #What we will do is put a bunch of images in the box. They will be deleted when clicked
 
 #A whole bunch of functiosn to add chunks to the message
 def white() :
