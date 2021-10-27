@@ -1,11 +1,12 @@
 import os
 import json
+import random
 
 print(os.listdir())
-specification = open('codepoints.json', 'r')
+specification = open("codepoints.json", 'r')
 specs = json.load(specification)
 
-spec_version = "1.0";
+spec_version = "1.0"
 
 def transmit(words):
     #Checks if the function input is an array of words
@@ -39,15 +40,21 @@ def internalTramsit(words):
     if wordsValid == True:
         #Insert while loop that counts either until the end of words array or when letterCount gets to 2
         iteration = 0
-        while letterCount < 3 or iteration < len(words) :
+        while letterCount < 3 and iteration < len(words) :
             if getWordType(words[iteration]) == "Letters" :
                 letterCount += 1
             iteration += 1
         if letterCount < 3:
+            #Generates a random hash so that different messages can be distinguished
+            id = ("%032x" % random.getrandbits(128))
             message = []
+            #Helps message stay in one piece by showing where it goes in the message
+            iteration = 0
             for i in words:
-                message.append("{\"version\": "+spec_version+", \"Code\": "+str(getWordNumber(i))+"}")
-            print(message)
+                message.append("{\"id\": "+id+", \"position\": "+str(iteration)+", \"version\": \""+spec_version+"\", \"Code\": "+str(getWordNumber(i))+"}")
+                iteration += 1
+            for i in message:
+                os.system('echo '+i+'| pocsag -f 434000000 -t 2')
         else:
             print("Error. Too many characters of type letter.")
     else:
@@ -69,12 +76,10 @@ def getWordNumber(word):
     if isinstance(word,str) == True:
         codeN = None
         iteration = 0
-        while codeN == None or iteration < len(specs) :
+        while codeN == None and iteration < len(specs) :
             if specs[iteration]['Meaning'] == word:
                 codeN = specs[iteration]['Code']
             iteration += 1
         return codeN
     else:
         print('String Value Required')
-
-internalTramsit(["Red", "Z", "A"])
