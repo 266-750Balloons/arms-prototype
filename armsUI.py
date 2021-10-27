@@ -1,5 +1,6 @@
 #import whatever the code for transmitting is called
 import gi
+import transmission.py
 
 gi.require_version("Gtk", "3.0")
 from gi import Gtk
