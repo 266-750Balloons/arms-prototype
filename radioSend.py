@@ -53,7 +53,7 @@ def internalTransmit(words):
                 message.append("{\"id\": "+id+", \"position\": "+str(iteration)+", \"version\": \""+spec_version+"\", \"Code\": "+str(getWordNumber(i))+"}")
                 iteration += 1
             for i in message:
-                os.system("echo \"1:"+i+"\"| sudo pocsag -f 434000000 -t 2 -r 2400")
+                os.system('echo "1:'+i+'"| sudo pocsag -f 434000000 -t 2 -r 2400')
         else:
             print("Error. Too many characters of type letter.")
     else:
