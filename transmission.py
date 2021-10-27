@@ -4,6 +4,8 @@ import json
 specification = open('codepoints.json', 'r')
 specs = json.load(specification)
 
+spec_version = "1.0";
+
 def transmit(words):
     #Checks if the function input is an array of words
     typeCheck1 = isinstance(words, list)
@@ -27,14 +29,28 @@ def internalTramsit(words):
     #Checks if all the words inputted are valid.
     letterCount = 0
     wordsValid = True
-    #Insert while loop that counts either until the end of words array or when letterCount gets to 2
-    iteration = 0
-    while letterCount < 2 or iteration < len(words) :
-        if getWordType(words[iteration]) == "Letters" :
-            letterCount += 1
-        iteration += 1
     #insert while loop that checks every word in the message to see if a a non-null value is outputted. If it is, wordsValid is set to false, ending the loop, and an error is returned.
-    
+    iteration = 0
+    while iteration < len(words) and wordsValid == True:
+        if getWordNumber(words[iteration]) == None :
+            wordsValid = False
+        iteration += 1 
+    if wordsValid == True:
+        #Insert while loop that counts either until the end of words array or when letterCount gets to 2
+        iteration = 0
+        while letterCount < 3 or iteration < len(words) :
+            if getWordType(words[iteration]) == "Letters" :
+                letterCount += 1
+            iteration += 1
+        if letterCount < 3:
+            message = []
+            for i in words:
+                message.append("{\"version\": "+spec_version+", \"Code\": "+str(getWordNumber(i))+"}")
+            print(message)
+        else:
+            print("Error. Too many characters of type letter.")
+    else:
+        print("Error. Message has invalid words")
     
 def getWordType(word):
     if isinstance(word,str) == True:
@@ -59,3 +75,5 @@ def getWordNumber(word):
         return codeN
     else:
         print('String Value Required')
+
+internalTramsit(["Red", "Z", "A"])
