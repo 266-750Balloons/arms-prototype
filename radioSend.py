@@ -21,9 +21,11 @@ def transmit(words):
                 typeCheck2 = False
             iteration += 1    
     if typeCheck2 == True & typeCheck1 == True:
-        internalTransmit(words)
+        status = internalTransmit(words)
+        return status
     else:
         print("Format incorrect. Please input a list of strings.")
+        return 1
 
 def internalTransmit(words):
     #Counts the Amount of Letters in the message to make sure there is no more than 2
@@ -59,8 +61,10 @@ def internalTransmit(words):
                 os.system('echo "1:'+i+'"| sudo pocsag -f 434000000 -t 2 -r 2400')
         else:
             print("Error. Too many characters of type letter.")
+            return 1
     else:
         print("Error. Message has invalid words")
+        return 1
     
 def getWordType(word):
     if isinstance(word,str) == True:

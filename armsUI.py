@@ -9,6 +9,12 @@ builder.add_from_file("arms_ui.glade")
 
 message = []
 
+#Function to send message. Shows error to user if something goes wrong
+def send() :
+     status = radioSend.transmit(message)
+     message = []
+
+#A whole bunch of functiosn to add chunks to the message
 def white() :
     message.append("White")
 
@@ -197,3 +203,24 @@ def near() :
 
 def prepo_on() :
      message.append("On")
+
+def crashed() :
+     message.append("Crashed")
+
+def stalled() :
+     message.append("Stalled/stopped")
+
+def disabled() :
+     message.append("Disabled")
+
+def on_fire() :
+     message.append("On fire/burning")
+
+def left_lane() :
+     message.append("Left Lane(s)")
+
+def right_lane() :
+     message.append("Right Lane(s)")
+
+def center_lane() :
+     message.append("Center Lane(s)")
