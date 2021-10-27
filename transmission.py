@@ -1,6 +1,7 @@
 import os
 import json
 
+print(os.listdir())
 specification = open('codepoints.json', 'r')
 specs = json.load(specification)
 
