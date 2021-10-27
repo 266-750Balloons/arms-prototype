@@ -2,7 +2,6 @@ import os
 import json
 import random
 
-print(os.listdir())
 specification = open("codepoints.json", 'r')
 specs = json.load(specification)
 
