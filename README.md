@@ -1,7 +1,7 @@
 # arms-prototype
 Prototype Implementation of Automobile Radio Messaging System transmitter, a safety system made by me, for US Congressional App Challenge 2021.
 
-![ARMS Cover](cover.png)
+![ARMS Cover](cover_github_edition.png)
 
 ## To Try it Out (Raspberry Pi OS)
 1. Install rpitx (see [here](https://github.com/F5OEO/rpitx#Installation)
