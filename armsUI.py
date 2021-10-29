@@ -23,8 +23,6 @@ def send() :
           message = []
           window.send.setText("Send")
           renderMessage()
-     else:
-          window.send.setText("Error")
 
 #Removes the last word in the message
 def backspace() :
