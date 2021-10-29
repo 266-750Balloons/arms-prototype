@@ -66,7 +66,7 @@
      <string>Incidents</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="center">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -100,7 +100,7 @@ F
 T</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_10">
+   <widget class="QPushButton" name="right">
     <property name="geometry">
      <rect>
       <x>230</x>
@@ -412,7 +412,7 @@ T</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="J">
+        <widget class="QPushButton" name="j">
          <property name="text">
           <string>J</string>
          </property>
@@ -603,7 +603,7 @@ T</string>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="n9_40">
+        <widget class="QPushButton" name="n9">
          <property name="text">
           <string>9</string>
          </property>
@@ -631,7 +631,7 @@ T</string>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="unsafeDriver">
        <property name="text">
         <string>Unsafe
 Driver</string>
@@ -639,7 +639,7 @@ Driver</string>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_3">
+      <widget class="QPushButton" name="wrongWay">
        <property name="text">
         <string>Wrong
 Way Driver</string>
@@ -647,7 +647,7 @@ Way Driver</string>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_4">
+      <widget class="QPushButton" name="unsafePerson">
        <property name="text">
         <string>Unsafe
 Person</string>
@@ -655,7 +655,7 @@ Person</string>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_5">
+      <widget class="QPushButton" name="obstacle">
        <property name="text">
         <string>Obstacle
 </string>
@@ -663,7 +663,7 @@ Person</string>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_6">
+      <widget class="QPushButton" name="spill">
        <property name="text">
         <string>Spill
 </string>
@@ -671,7 +671,7 @@ Person</string>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_7">
+      <widget class="QPushButton" name="looseGravel">
        <property name="text">
         <string>Loose
 Gravel</string>
@@ -679,7 +679,7 @@ Gravel</string>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_8">
+      <widget class="QPushButton" name="closure">
        <property name="text">
         <string>Closure</string>
        </property>
@@ -705,7 +705,7 @@ Gravel</string>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="in">
+      <widget class="QPushButton" name="prepoIn">
        <property name="text">
         <string>In</string>
        </property>
@@ -726,7 +726,7 @@ Gravel</string>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="Near">
+      <widget class="QPushButton" name="near">
        <property name="text">
         <string>Near</string>
        </property>
