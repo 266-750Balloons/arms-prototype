@@ -2,13 +2,6 @@ import sys
 from PyQt5 import QtWidgets, uic
 import radioSend
 
-application = QtWidgets.QApplication(sys.argv)
-
-window = uic.loadUi("arms_ui.ui")
-window.show()
-
-application.exec()
-
 message = []
 
 #Function to send message. Shows error to user if something goes wrong
@@ -236,3 +229,11 @@ def center_lane() :
 
 def plate_ending() :
      message.append("Plate ending in")
+
+#Starting Application
+application = QtWidgets.QApplication(sys.argv)
+
+window = uic.loadUi("arms_ui.ui")
+window.show()
+
+application.exec()
