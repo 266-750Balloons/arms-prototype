@@ -19,11 +19,10 @@ def send() :
      global message
      status = radioSend.transmit(message)
      window.send.setText("Sending...")
-     #If nothing happens, clear the message. If there is an error, the user is given the opportunity to fix it.
-     if status == 0:
-          message = []
-          window.send.setText("Send")
-          renderMessage()
+     #If nothing happens, clear the message
+     message = []
+     window.send.setText("Send")
+     renderMessage()
 
 #Removes the last word in the message
 def backspace() :
