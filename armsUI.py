@@ -4,17 +4,20 @@ import radioSend
 
 message = []
 
+#Starting Application
+application = QtWidgets.QApplication(sys.argv)
+
+window = uic.loadUi("arms_ui.ui")
+window.show()
+
+application.exec()
+
 #Function to send message. Shows error to user if something goes wrong
 def send() :
      status = radioSend.transmit(message)
      #If nothing happens, clear the message. If there is an error, the user is given the opportunity to fix it.
      if status == 0:
           message = []
-
-def renderInBox() :
-     #renders contents of message in the message box.
-     print("placeholder")
-     #What we will do is put a bunch of images in the box. They will be deleted when clicked
 
 #A whole bunch of functiosn to add chunks to the message
 def white() :
@@ -229,11 +232,3 @@ def center_lane() :
 
 def plate_ending() :
      message.append("Plate ending in")
-
-#Starting Application
-application = QtWidgets.QApplication(sys.argv)
-
-window = uic.loadUi("arms_ui.ui")
-window.show()
-
-application.exec()
