@@ -1,11 +1,13 @@
-#import whatever the code for transmitting is called
-import gi
+import sys
+from PyQt5 import QtWidgets, uic
 import radioSend
 
-gi.require_version("Gtk", "3.0")
-from gi import Gtk
-builder = Gtk.builder
-builder.add_from_file("arms_ui.glade")
+application = QtWidgets.QApplication(sys.argv)
+
+window = uic.loadUi("arms_ui.ui")
+window.show()
+
+application.exec()
 
 message = []
 
