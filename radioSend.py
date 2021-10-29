@@ -7,7 +7,7 @@ specs = json.load(specification)
 
 spec_version = "1.0"
 
-def transmit(words):
+def transmit(words) :
     #Checks if the function input is an array of words
     #typeCheck1 = isinstance(words, list)
     #typeCheck2 = False

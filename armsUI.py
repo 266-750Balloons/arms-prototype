@@ -34,57 +34,73 @@ def backspace() :
 #A whole bunch of functiosn to add chunks to the message
 def white() :
     message.append("White")
+    message.append("Other Vehicle")
     renderMessage()
 
 def black() :
     message.append("Black")
+    message.append("Other Vehicle")
     renderMessage()
 
 def gray() :
     message.append("Gray")
+    message.append("Other Vehicle")
     renderMessage()
      
 def silver():
     message.append("Silver")
+    message.append("Other Vehicle")
     renderMessage()
      
 def red():
     message.append("Red")
+    message.append("Other Vehicle")
     renderMessage()
 
 def blue():
     message.append("Blue")
+    message.append("Other Vehicle")
     renderMessage()
 
 def brown():
     message.append("Brown")
+    message.append("Other Vehicle")
     renderMessage()
 
 def green():
     message.append("Green")
+    message.append("Other Vehicle")
     renderMessage()
 
 
 def beige():
     message.append("Beige")
+    message.append("Other Vehicle")
+    renderMessage()
 
 def orange():
     message.append("Orange")
+    message.append("Other Vehicle")
+    renderMessage()
 
 def gold():
     message.append("Gold")
+    message.append("Other Vehicle")
     renderMessage()
 
 def yellow():
     message.append("Yellow")
+    message.append("Other Vehicle")
     renderMessage()
 
 def purple():
     message.append("Purple")
+    message.append("Other Vehicle")
     renderMessage()
 
 def other():
-    message.append("Other")
+    message.append("Other-colored or patterned")
+    message.append("Other Vehicle")
     renderMessage()
 
 def letter_A() :
