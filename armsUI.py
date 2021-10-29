@@ -17,8 +17,8 @@ def renderMessage() :
 #Function to send message. Shows error to user if something goes wrong
 def send() :
      global message
-     status = radioSend.transmit(message)
      window.send.setText("Sending...")
+     status = radioSend.transmit(message)
      #If nothing happens, clear the message
      message = []
      window.send.setText("Send")
