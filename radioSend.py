@@ -53,9 +53,9 @@ def internalTransmit(words):
             iteration = 0
             for i in words:
                 if iteration == len(words) - 1 :
-                    message.append("{\\\"id\\\": \\\""+id+"\\\", \\\"position\\\": "+str(iteration)+", \\\"version\\\": \\\""+spec_version+"\\\", \\\"Code\\\": "+str(getWordNumber(i))+", \\\"LastWord\\\": True}")
+                    message.append("{\\\"id\\\": \\\""+id+"\\\", \\\"position\\\": "+str(iteration)+", \\\"version\\\": \\\""+spec_version+"\\\", \\\"Code\\\": "+str(getWordNumber(i))+", \\\"LastWord\\\": 1}")
                 else:
-                    message.append("{\\\"id\\\": \\\""+id+"\\\", \\\"position\\\": "+str(iteration)+", \\\"version\\\": \\\""+spec_version+"\\\", \\\"Code\\\": "+str(getWordNumber(i))+", \\\"LastWord\\\": False}")
+                    message.append("{\\\"id\\\": \\\""+id+"\\\", \\\"position\\\": "+str(iteration)+", \\\"version\\\": \\\""+spec_version+"\\\", \\\"Code\\\": "+str(getWordNumber(i))+", \\\"LastWord\\\": 0}")
                 iteration += 1
             for i in message:
                 os.system('echo "1:'+i+'"| sudo pocsag -f 434000000 -t 2 -r 2400')
