@@ -26,7 +26,7 @@ Prototype Implementation of Automobile Radio Messaging System transmitter, a saf
     ```bash
     python3 armsUI.py
     ```
-7. Tune into 434 Mhz with your POCSAG receiver and start sending messages. (I have created a transmitter script that reads [PDW](https://www.discriminator.nl/pdw/index-en.html) logs.)
+7. Tune into 160 Mhz (or go into the code and change it to your preffered) with your POCSAG receiver and start sending messages.
 
 ## How it works
 I have a script, radioSend.py, that parses my codepoints for this system in the JSON file codePoints.py. armsUI.py inputs the words into radioSend.py, and each word of the message is turned into JSON objects with a unique MD5 hash to identity each message and a number representing a word. Each object is put into the rpitx pocsag command. Each word is transmitted twice on 434 MHz. 
