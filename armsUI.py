@@ -8,7 +8,7 @@ message = []
 application = QtWidgets.QApplication(sys.argv)
 
 window = uic.loadUi("arms_ui.ui")
-window.show()
+window.showFullScreen()
 
 #Function to render contents of message into the message box
 def renderMessage() :
