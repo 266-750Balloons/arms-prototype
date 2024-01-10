@@ -7,7 +7,7 @@ Prototype Implementation of Automobile Radio Messaging System transmitter, a saf
 1. Install rpitx (see [here](https://github.com/F5OEO/rpitx#Installation)
 2. Go into the rpitx directory and make a symlink to the pocsag command in /usr/bin
     ```bash
-    sudo ln pocsaq /usr/bin/pocsag
+    sudo ln pocsag /usr/bin/pocsag
     ```
 3. Install PyQt5 library
     ```bash
